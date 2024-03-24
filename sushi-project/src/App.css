@@ -236,6 +236,7 @@ nav{
           flex-wrap: wrap;
           align-items: center;
           gap: 15px; /* Adjust the gap as needed */
+          
         }
         #info-sec {
           margin-top: 80px;
@@ -414,6 +415,19 @@ width: 280px;
 #footer p{
 padding-left: 325px ;
   }
+#info-sec {
+  margin-top: 0px;
+}  
+p.text-sec {
+ margin-top: 0px;
+}
+#services {
+  height: fit-content;
+}
+
+}
+
+
 @media (max-width: 768px) {
   #main {
     width: auto;
@@ -597,7 +611,12 @@ padding-left: 325px ;
             }
     
             #services-box:hover{
-              box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
+              #footer span{
+              
+                margin-left: 90px;
+                background-color:red;
+               
+                }
              
     
             }
@@ -807,7 +826,7 @@ padding-left: 325px ;
           
                   #services-box:hover{
                     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
-          
+                    color: #793614;
                   }
           
                   #service-img {
@@ -1156,4 +1175,4 @@ padding-left: 325px ;
               background-color:red;
              
               }
-            }}
+            }
