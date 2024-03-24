@@ -178,7 +178,7 @@ nav{
 
         /* Service box insider css style */
         #services-box {
-          width: 100%;
+          
           height: 450px;
           background-color: white;
           margin: 15px;
@@ -193,8 +193,8 @@ nav{
         #services-box:hover{
           box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
           transform: scale(1.1);
-          background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,11,20,0.8099614845938375) 46%, rgba(0,212,255,1) 100%);
+          background-color: #1db096;
+          color: #793614;
         }
 
         #service-img {
@@ -231,10 +231,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,11,20,0.809961484
           padding-top: 40px;
         }
         .a-container {
-display: flex;
-justify-content: center;
-align-content: center;
-
+          justify-content: center;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 15px; /* Adjust the gap as needed */
         }
         #info-sec {
           margin-top: 80px;
@@ -296,6 +297,13 @@ align-content: center;
             color: #ffffff;
            
           }
+          #footer span{
+              
+            margin-left: 90px;
+            background-color:red;
+            margin-left: 0px;
+           
+            }
 
          /* For tablet */ 
           @media(max-width:1100px){.menu-icon{
@@ -385,223 +393,128 @@ align-content: center;
       }}
 
 
-@media screen and (max-width: 1024) 
+@media screen and (max-width: 1024px) 
 {
   #main{
+    width: 1024px;
+    height: 100vh;
+  }
+ .nav {
+  width: 1024px;
+ }
+
+#services-box {
+width: 280px;
+}
+
+.cv-btn3 {
+  margin-left: 475px;
+}
+
+#footer p{
+padding-left: 325px ;
+  }
+@media (max-width: 768px) {
+  #main {
     width: auto;
     height: 100vh;
   }
-  
-}
-      @media screen and (max-width: 768px){
-
-        #main{
-          width: auto;
-          height: 100vh;
-        }
-        .nav{
-
-          width: 768px;
-        }
-      .name{
-        font-family: 'Montserrat';
-        width: 400px;
-        position: absolute;  
-        top: 50%;
-        
-       
-        }
-        
-       
-       
-    
-          
-          #about {
-            text-align: center;
-           s
-            
-           
-          
-    
-          #about h1 {
-            margin-top: 80px;
-          }
-    
-          #about-text{
-            display: flex;
-            flex: 1;
-            height: 280px;
-            overflow: scroll;
-            margin-bottom: 30px;
-          }
-          .about-image img{
-            width: 125px;
-            height: 100px;
-            margin: 10px;
-          }
-
-         
-          .cv-btn2{
-            width:110px;
-            height: 40px;
-          
-            padding: 10px 5px;
-        
-             
-              background-color: #ff0000b1;
-              box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-            color:#ffffff;
-            }
-            .cv-btn2:hover{
-            background-color: #9f2c2cb1;
-              transition: all ease 0.5s;
-              color: #ffffff;
-            }
-    
-            /* Service box insider css style */
-            #services h1 {
-              
-             padding-top: 150px;
-            }
-            #services-box {
-              width: 230px;
-              height: 350px;
-              background-color: white;
-              margin: 15px;
-              border-radius: 10px;
-              overflow: scroll;
-              box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
-              position: relative;
-              transition: 0.3s ease-in-out;
-              
-            }
-    
-            #services-box:hover{
-              box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
-             
-    
-            }
-    
-            #service-img {
-              width: 230px;
-              height: 60%;
-            }
-            #service-img img {
-              padding: 15px;
-              width: 100%;
-              height: 100%;
-            }
-    
-            .h2-text {
-             padding: 10px;
-            }
-    
-            
-    
-    
-            #services h1 {
-            text-align: center ;
-            margin: 40px;
-            
-    
-            }
-            #services {
-              width: 100%;
-              height: 100vh;
-              display: flex;
-              flex-direction: column;
-              padding-top: 40px;
-              padding-bottom: 50px;
-            }
-            .a-container {
+  .nav {
+    width: 768px;
+  }
+  .name {
+    font-family: 'Montserrat';
+    width: 400px;
+    position: absolute;
+    top: 50%;
+  }
+  #about {
+    text-align: center;
+  }
+  #about-text {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 10px;
-    margin-top: 0px;
+    flex: 1;
+    height: 280px;
+    overflow: scroll;
+    margin-bottom: 30px;
+  }
+  .about-image img {
+    width: 125px;
+    height: 100px;
+    margin: 10px;
+  }
+  .cv-btn2 {
+    width: 110px;
+    height: 40px;
+    padding: 10px 5px;
+    background-color: #ff0000b1;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    color: #ffffff;
+  }
+  .cv-btn2:hover {
+    background-color: #9f2c2cb1;
+    transition: all ease 0.5s;
+    color: #ffffff;
+  }
+  #services h1 {
+    padding-top: 50px;
+    text-align: center;
+    margin: 10px;
+  }
+    .a-container {
+      flex-direction: row;
+      align-items: center;
+      height: auto; /* Remove fixed height */
    
+  }
+  #services-box {
+    width: 225px;
+   height: 250px ;
+   overflow-y: scroll;
+     }
   
-            }
-            #info-sec {
-              
-              margin-top: 50px;
-              width: 100%;
-              height: 200px;
-              background-color:#793614;
-           
-              
-            }
-            .text-sec{
-              text-align: center;
-              padding-top: 90px;
-              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-              font-weight: bolder;
-              color: white;
-              font-size: 18px;
-            }
-    
-            .cv-btn3{
-              
-        margin-left: 340px;
-         
-           width:110px;
-           height: 40px;
-           padding: 10px 5px;
-             background-color: #ffffffb1;
-             color: black;
-             box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-           border-radius: 12px;
-            }
-    
-              #contact {
+  .cv-btn3 {
+    margin-left: 340px;
+    width: 110px;
+    height: 40px;
+    padding: 10px 5px;
+    background-color: #ffffffb1;
+    color: black;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    border-radius: 12px;
+  }
+  #contact {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .h-text {
+    padding-left: 50px;
+  }
+  #footer {
+    margin-top: 100px;
+  }
+  #footer p {
+    padding-left: 200px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  #footer p a {
+    color: #ffffff;
+  }
+  #footer span {
+    background-color: red;
+  }
 
-                margin-top: 50px;
-                padding-top: 50px;
-                width: 100%;
-                height: 300px;
-                background-color: #e0e0e0;
-              }
-        
-              #contactusinfo {
-                width: 100%;
-              height: auto;
-              background-color: white;
-              box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
-              position: relative;
-              transition: 0.3s ease-in-out;
-              margin-top: 0px;
-              }
-              #contact {
-                display: flex;
-                flex-direction: column;
-                align-content: center;
-                justify-content: center;
-              }
-              .h-text {
-                padding-left: 50px;
-              }
-              #footer{
-                margin-top: 100px;
-              }
-              #footer p {
-                padding-left: 200px;
-                
-                color: #ffffff;
-                font-weight: bolder;
-                text-decoration: none;
-              }
-              #footer p a {
-                color: #ffffff;
-             
-              }
-              #footer span{
-              
-             
-              background-color:red;
-             
-              }
-            }
+ 
+  }
 
 
       /*copy pasted to need  to me modified*/
@@ -622,12 +535,7 @@ align-content: center;
         position: absolute;  
         top: 40%;
        
-        }
-        
-       
-       
-    
-          
+      }
           #about {
             text-align: center;
            
@@ -676,7 +584,7 @@ align-content: center;
              padding-top: 150px;
             }
             #services-box {
-              width: 320px;
+              width: 310px;
               height: 450px;
               background-color: white;
               margin: 15px;
@@ -731,7 +639,7 @@ align-content: center;
     justify-content: center;
     align-content: center;
     margin-bottom: 100px;
-    margin-top: 0px;
+   
   
             }
             #info-sec {
@@ -937,7 +845,7 @@ align-content: center;
           flex-direction: column;
           justify-content: center;
           align-content: center;
-          margin-bottom: 100px;
+          margin-bottom: 50px;
         
                   }
                   #info-sec {
@@ -1019,7 +927,7 @@ align-content: center;
                    
                     }
                   }
-                  @media screen and (max-width: 320px) 
+                  @media screen and (max-width: 320px ) 
         
        {
 
@@ -1113,9 +1021,9 @@ align-content: center;
             #services h1 {
               padding-top: 100px;
             }
-            #services-box {
-              width: 320px;
-              height: 450px;
+            #services-box  {
+              width: 300px;
+              height: 400px  ;
               background-color: white;
               margin: 15px;
               border-radius: 10px;
@@ -1126,17 +1034,17 @@ align-content: center;
             }
     
             #services-box:hover{
-              box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
+              box-shadow: 3px 3px 13px #0000001a;
     
             }
     
             #service-img {
-              width: 320px;
+              width: 300px;
               height: 60%;
             }
             #service-img img {
               padding: 15px;
-              width: 100%;
+              width: 300px;
               height: 100%;
             }
     
@@ -1154,7 +1062,7 @@ align-content: center;
             }
             #services {
               width: 100%;
-              height: 100vh;
+              
               display: flex;
               flex-direction: column;
               padding-top: 40px;
@@ -1165,8 +1073,10 @@ align-content: center;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-bottom: 100px;
-  
+    
+    margin-bottom: 50px;
+ 
+     
             }
             #info-sec {
               
