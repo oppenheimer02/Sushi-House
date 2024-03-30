@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../images/Sushi-House-Logo.jpg';
+import logo from '../images/Sushi-House-Logo-removebg-preview.png';
 
 function Navbar() {
 
