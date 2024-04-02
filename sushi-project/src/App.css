@@ -1176,17 +1176,17 @@ p.text-sec {
               }
 
                   }
-                  @media screen and (max-width: 320px ) 
+                  @media screen and (max-width: 321px ) 
         
        {
 
         #main {
-          width: 320px;
+          width: 321px;
           height: 100vh;
         }
         .nav{
 
-          width: 320px;
+          width: 321px;
         }
       .name{
         font-family: 'Montserrat';
@@ -1404,7 +1404,7 @@ p.text-sec {
                 justify-content: center;
               }
             }
-
+          }
             @media (max-width:294px) {
 
               #main {
@@ -1414,8 +1414,8 @@ p.text-sec {
           
               .nav{
                 width: 294px;
-              }}
-            
+              }
+          
               
               #contact1 {
                 width: 294px;
@@ -1442,6 +1442,6 @@ p.text-sec {
               width: 294px;
               
             }
-
+          }
             
-            }
+          
