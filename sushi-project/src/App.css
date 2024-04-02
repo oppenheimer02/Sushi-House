@@ -109,10 +109,10 @@ nav{
     transform: translate(-22%,-50%);
     }
     .name span{
-      color: #ff0000b1;
+      color: #793614;
     }
     .name .details{
-      color: #ff0000b1;
+      color: #793614;
     }
     .name h1{
     font-family:'Montserrat';
@@ -128,7 +128,7 @@ nav{
       display: flex;
       justify-content: center;
         align-items: center;
-        background-color: #ff0000b1;
+        background-color: #793614;
         box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
       color:#ffffff;
       }
@@ -1213,12 +1213,7 @@ p.text-sec {
         top: 50%;
        
         }
-        .name span{
-          color: #ff0000b1;
-        }
-        .name .details{
-          color: #ff0000b1;
-        }
+    
         .name h1{
         font-family:'Montserrat';
         font-size: 40px;
@@ -1233,7 +1228,7 @@ p.text-sec {
           display: flex;
           justify-content: center;
             align-items: center;
-            background-color: #ff0000b1;
+            background-color: #793614;
             box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
           color:#ffffff;
           }

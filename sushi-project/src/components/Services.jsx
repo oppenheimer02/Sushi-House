@@ -9,9 +9,9 @@ function Services() {
     <div id='services'>
       <h1> SERVICES </h1>
       <div className='a-container'>
-        <ServiceInfo image= {Sushi1} title= 'SUSHI TRAINING' details='  loremdjfjfjdjgdjgjdgnjgndnngjdggngdjdjddj ' />
-        <ServiceInfo image= {Sushi4} title= 'SUSHI RESTURANT' details=' loremdjfjfjdjgdjgjd  gnjgndnngjdggngdjdjddj ' />
-        <ServiceInfo image= {Sushi5} title= 'SUSHI DELIVERY' details=' loremdjfjfjdjgdjgjdgnjgndnngjdggngdjdjddj ' />
+        <ServiceInfo image= {Sushi1} title= 'SUSHI TRAINING' details='  We offer practical sushi training. ' />
+        <ServiceInfo image= {Sushi4} title= 'SUSHI RESTURANT' details=' We have 3 outlets providing quality sushi.' />
+        <ServiceInfo image= {Sushi5} title= 'SUSHI DELIVERY' details=' Free home delivery within certain regions ' />
         
          </div>
     </div>

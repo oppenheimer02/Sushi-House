@@ -9,7 +9,13 @@ function About() {
       </h1>
     <h4>Sushi House Nepal</h4>
     <div id='about-text'>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis odio doloribus quasi! Recusandae ipsam quos est at vitae iusto consequatur, adipisci architecto mollitia rerum assumenda velit nulla, optio repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corporis recusandae rerum quam beatae molestias harum? Minus minima molestiae numquam ipsum? Voluptas officiis unde dicta harum corrupti alias inventore possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis odio doloribus quasi! Recusandae ipsam quos est at vitae iusto consequatur, adipisci architecto mollitia reruum.
+    <p>Welcome to Sushi House NEPAL, where culinary artistry meets Japanese tradition! Nestled in the heart of Northeastern Pennsylvania, our restaurant is a haven for sushi enthusiasts and Japanese cuisine aficionados alike.
+
+At Sushi House NEPAL, we are dedicated to crafting authentic dishes that transport your taste buds to the bustling streets of Tokyo. Our chefs, trained in the time-honored techniques of sushi-making, delicately prepare each roll with precision and passion, ensuring an unforgettable dining experience with every bite.
+
+But our commitment to excellence doesn't stop at sushi. From savory tempura to mouthwatering teriyaki, our menu boasts a wide array of Japanese classics, each dish meticulously crafted to tantalize your palate and satisfy your cravings.
+
+So come join us at Sushi House NEPA, where every meal is a culinary journey through the rich and vibrant flavors of Japan. We look forward to welcoming you and sharing the magic of Japanese cuisine with you soon.
     </p> 
     <div className='about-image'>
      
