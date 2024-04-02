@@ -426,7 +426,18 @@ nav{
               width: 600px;
              }
             }
+             @media  (max-width: 1366px) {
 
+              #main {
+                width: 1366px;
+      
+              }
+              .nav {
+                width: 1366px;
+              }
+      
+      
+             }
 
 
 
@@ -891,7 +902,7 @@ p.text-sec {
 
               #main {
                 width: auto;
-                background-size: 414px 100vh;
+               
               }
              
              
