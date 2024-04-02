@@ -981,7 +981,20 @@ p.text-sec {
     }
     .nav {
       width: 384px;
-    }  }
+    }  
+  
+    .contact-input {
+      width: 384px;
+    }
+    #locate iframe {
+      width: 384px;
+    }
+  
+
+    #gallerybox img {
+      height: 200px;
+    }
+  }
 
 
             /*for medium smartphones*/
