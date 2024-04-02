@@ -711,7 +711,58 @@ p.text-sec {
       width: 720px;
     } }
 
+
+
+
+
+
+    @media (max-width: 600px) {
     
+
+
+      #main {
+        height: 100vh;
+           
+           background-size:  auto;
+         }
+     
+         .nav{
+           width: 600px;
+         } 
+
+
+    }
+    
+
+@media (max-width: 480px) {
+  #main {
+    height: 100vh;
+       
+    
+     }
+
+    #contact {
+      width: 480px;
+    } 
+ 
+     .nav{
+       width: 480px;
+     }
+
+     #contactusinfo { 
+      width: 480px;     
+     }
+#locate iframe {
+
+  width: 240px;
+
+}
+.h-text {
+  padding-left: 0px;
+
+}}
+
+
 
       /*copy pasted to need  to me modified*/
       
@@ -908,7 +959,18 @@ p.text-sec {
              
               .nav{
                 width: 414px;
-              }}
+              }
+              .contact-input {
+                height: 414px;
+                width: 414px;
+              
+            }
+          #contact1 {
+            margin-left: 0px;
+          }
+          
+          
+          }
 
               @media (max-width: 384px)
   {
@@ -1312,10 +1374,11 @@ p.text-sec {
               }
 
               #contact1 {
-                margin-left: 0px;
+               display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
+                
 
               }
               .contact-input {
@@ -1334,6 +1397,7 @@ p.text-sec {
 
 
             @media (max-width: 319px){ 
+              
 
               #gallerybox .imagess{
                 align-items: center;
@@ -1354,6 +1418,7 @@ p.text-sec {
             
               
               #contact1 {
+                width: 294px;
                 margin-left: 0px;
               }
               .contact-input {
